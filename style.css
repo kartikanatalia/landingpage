@@ -1,0 +1,108 @@
+:root{
+    /* color */
+    --primaryColor : #002939;
+    --secondaryColor : #DDC190;
+
+    /* font*/
+    --mainFont: 'Open Sans', sans-serif;
+    --headingFont: 'Poppins', serif;
+}
+
+body{
+    font-family: var(--mainFont);
+
+}
+
+section{
+    padding-top: 4rem;
+}
+
+.navbar{
+    background-color: #002939;
+}
+
+.jumbotron{
+    padding-top: 7rem;
+    background-image: url(img/Desain\ tanpa\ judul\ \(17\).png);
+    background-size: cover;
+    color: var(--primaryColor);
+    font-family: var(--headingFont);
+    font-style: bold;
+}
+
+#about{
+    background-color:#DDC190;
+    color: var(--primaryColor);
+}
+
+#skills{
+    background-color: #396372;
+    padding-bottom: 3rem;
+    color: #DDC190;
+}
+
+#projects {
+    background-color:#DDC190;
+    color: var(--primaryColor);
+}
+.card {
+    background-color: #396372;
+    color: #DDC190
+}
+
+#contact {
+    background-color: #396372;
+    padding-bottom: 3rem;
+    color: #DDC190;
+}
+
+.btn {
+    background-color: #DDC190;
+    color: #002939;
+    border: none;
+}
+.btn:hover{
+    background-color: #002939;
+}
+
+.footer{
+    background-color: #002939;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
